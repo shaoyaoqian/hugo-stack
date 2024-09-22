@@ -3,10 +3,12 @@ mainSections = ["post"]
 # Output page's full content in RSS.
 rssFullContent = true
 favicon = "/favicon.png"
+# author = "Pengfei Ma"
+theauthor = "Ma Pengfei"
 
 [footer]
-since = 2024
-# customText = "© 2024 Pengfei Ma. All rights reserved."
+since = 2020
+customText = "<a href=\"https://beian.miit.gov.cn\">浙ICP备2022032946号-1</a><br><a href=\"https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral\" style=\"border-bottom: none;\"><img src=\"https://githubimages.pengfeima.cn/images/202405041516395.png\" width=\"10%\"></a>"
 
 [dateFormat]
 published = "Jan 02, 2006"
