@@ -10,7 +10,7 @@
 [[social]]
 identifier = "github"
 name = "GitHub"
-url = "https://github.com/CaiJimmy/hugo-theme-stack"
+url = "https://github.com/shaoyaoqian"
 
 [social.params]
 icon = "brand-github"
@@ -18,7 +18,31 @@ icon = "brand-github"
 [[social]]
 identifier = "twitter"
 name = "Twitter"
-url = "https://twitter.com"
+url = "https://twitter.com/PengfeiMa657387"
 
 [social.params]
 icon = "brand-twitter"
+
+[[social]]
+identifier = "email"
+name = "Email"
+url = "mailto:499908174@qq.com"
+
+[social.params]
+icon = "mail"
+
+[[social]]
+identifier = "zhihu"
+name = "Zhihu"
+url = "mailto:499908174@qq.com"
+
+[social.params]
+icon = "zhihu"
+
+[[social]]
+identifier = "weibo"
+name = "Weibo"
+url = "mailto:499908174@qq.com"
+
+[social.params]
+icon = "weibo"
