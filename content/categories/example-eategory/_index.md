@@ -1,6 +1,6 @@
 ---
-title: Example Category
-description: A description of this category 1
+title: Example Eategory
+description: ----------------
 image:
 
 # Badge style
