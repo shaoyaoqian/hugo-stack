@@ -5,8 +5,8 @@ rssFullContent = true
 favicon = "/favicon.png"
 
 [footer]
-since = 2020
-customText = ""
+since = 2024
+# customText = "© 2024 Pengfei Ma. All rights reserved."
 
 [dateFormat]
 published = "Jan 02, 2006"
@@ -14,7 +14,7 @@ lastUpdated = "Jan 02, 2006 15:04 MST"
 
 [sidebar]
 emoji = ""
-subtitle = "卮言日出,和以天倪"
+# subtitle = "卮言日出,和以天倪"
 
 [sidebar.avatar]
 enabled = true
