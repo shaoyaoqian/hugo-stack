@@ -79,7 +79,14 @@ enabled = true
 ## Comments
 [comments]
 enabled = true
-provider = "disqus"
+provider = "artalk"
+
+[comments.artalk]
+server = 'https://comments.pengfeima.cn'
+site = 'Hugo'
+css = 'https://comments.pengfeima.cn/dist/Artalk.css'
+js = 'https://comments.pengfeima.cn/dist/Artalk.js'
+
 
 [comments.disqusjs]
 shortname = ""
