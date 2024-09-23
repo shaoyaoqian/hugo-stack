@@ -11,8 +11,8 @@ since = 2020
 customText = "<a href=\"https://beian.miit.gov.cn\">浙ICP备2022032946号-1</a>"
 
 [dateFormat]
-published = "Jan 02, 2006"
-lastUpdated = "Jan 02, 2006 15:04 MST"
+published = "2006年1月2日"
+lastUpdated = "2006年1月2日"
 
 [sidebar]
 emoji = ""
@@ -30,7 +30,7 @@ readingTime = true
 
 [article.license]
 enabled = true
-default = "Licensed under CC BY-NC-SA 4.0"
+default = "版权所有，禁止转载"
 
 ## Widgets
 [[widgets.homepage]]
