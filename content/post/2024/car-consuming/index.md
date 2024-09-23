@@ -1,6 +1,7 @@
 ---
 title: 秦PLUS日常使用油电消耗统计
 # description: Welcome to Hugo Theme Stack
+slug: aaaaa
 date: 2023-08-18 08:49:21
 lastmod: 2012-10-09 08:49:00
 image: WechatIMG415.jpg
