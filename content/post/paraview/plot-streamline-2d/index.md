@@ -3,6 +3,9 @@ title: 画二维截面的流线图
 slug: plot-streamline-2d
 # description: 画双心室的纤维图
 date: 2024-09-23 00:00:00+0000
+categories:
+    - paraview
+tags:
 ---
 
 
@@ -11,7 +14,7 @@ date: 2024-09-23 00:00:00+0000
 https://www.sulvblog.cn/posts/blog/hugo_gallery/
 
 {{< galleries >}}
-
+{{< gallery src="https://githubimages.pengfeima.cn/images/202409232146523.jpeg" title="壁纸" >}}
 {{< gallery src="https://githubimages.pengfeima.cn/images/202306152242589.jpg" >}}
 {{< gallery src="https://githubimages.pengfeima.cn/images/202306152242666.jpg" >}}
 {{< gallery src="https://githubimages.pengfeima.cn/images/202306152024439.JPG" >}}
