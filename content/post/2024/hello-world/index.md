@@ -4,7 +4,7 @@ description: Welcome to Hugo Theme Stack
 slug: hello-world
 date: 2022-03-01
 lastmod: 2011-10-09
-image: cover.jpg
+image: 2153815980856311808.jpeg
 categories:
     - Example Category
     - Example Eategory
