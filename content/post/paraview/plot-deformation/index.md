@@ -19,3 +19,7 @@ image: 2153815980797591552.jpeg
 {{< myfigure src="https://githubimages.pengfeima.cn/images/202409252219613.png" title="导入流体和固体的数据" percent="60%">}}
 
 {{< myfigure src="https://githubimages.pengfeima.cn/images/202409252220375.png" title="计算固体形变" percent="60%">}}
+
+下载数据: [paraview-fsi-plot.001.zip](https://pan.quark.cn/s/461a633eb6b4)
+
+
