@@ -1,6 +1,7 @@
 ---
 title: "About"
 slug: "about"
+readingTime: false
 menu:
     main:
         name: 关于
@@ -12,6 +13,7 @@ menu:
 ## a
 ## a
 ## a
+[赠人玫瑰，手留余香](/p/pay-for-help/)
 
 <div style="width: 100%; max-width: 600px; margin: 0 auto; position: relative; padding-bottom: 56.25%; height: 0;">
     <!-- 嵌入的 iframe，无边框且自适应宽度 -->

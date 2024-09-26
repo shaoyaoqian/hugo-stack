@@ -2,6 +2,7 @@
 title: "About"
 slug: "about"
 toc: true
+readingTime: false
 menu:
     main:
         name: About
