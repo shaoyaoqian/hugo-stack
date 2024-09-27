@@ -9,3 +9,32 @@
 //     background-size: contain;
 //     background-attachment: fixed;
 //   }
+
+.myfigure figcaption {
+    font-size: 1.4rem;
+    color: var(--card-text-color-secondary);
+    margin-bottom: 1.5em;
+    font-family: 'LXGW WenKai', sans-serif; /* 设置字体 */
+    // margin-top: -0.5em;
+}
+
+:root {
+    --base-font-family: 'LXGW WenKai', "Lato", var(--sys-font-family), var(--zh-font-family), sans-serif;
+}
+
+.article-copyright {
+    margin-bottom: -2em !important;
+}
+
+.article-lastmod {
+    margin-bottom: -1em !important;
+}
+
+
+.atk-copyright {
+    display: none !important;
+}
+
+.artalk > .atk-list > .atk-list-header .atk-text {
+    display: flex !important;
+}

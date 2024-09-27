@@ -1,5 +1,6 @@
 ---
 title: Example Eategory
+slug: example-eategory
 description: ----------------
 image:
 
