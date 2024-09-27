@@ -70,3 +70,92 @@ as the update rule for ${F_p^{\mathfrak{p}}}^{n+1}$ given the $v_i^{n+1}$ and $F
 ## 更新位移
 
 ## 更新力
+
+
+Symplectic Euler MPM
+
+1. 计算$m_i^n$和$\mathbf{v}^n_i$
+
+2. 计算出力源项$\mathbf{f}_i^n$
+3. 更新速度$\mathbf{v}^{n+1}_i$
+4. 更新形变梯度$\mathbb{F}_p^{n+1}$
+5. 更新速度$\mathbf{v}_p^{n+1}$和$\mathbf{x}_p^{n+1}$
+
+
+
+
+
+拉格朗日点
+$$
+\mathbf{X}_i=\chi^{-1}(\mathbf{x}_i,t)
+$$
+$\mathbf{x}_i^{n+1}$ 为此拉格朗日点下一时刻的坐标。
+
+
+
+## 获取网格上的速度
+
+(与浸没边界法类似)
+
+## 更新力
+
+$$
+\begin{equation}
+f_i(\boldsymbol{x})=-\frac{\partial e}{\partial x_i}(\boldsymbol{x})=-\sum_p V_p^0\left(\frac{\partial \Psi_p}{\partial F}\left(F_p(x)\right)\right)\left(F_p^n\right)^{\top} \nabla w_{i p}^n .
+\end{equation}
+$$
+
+$$
+\begin{equation}
+f_i^n=f_i\left(x_i^n\right)=-\sum_p V_p^0\left(\frac{\partial \Psi_p}{\partial F}\left(F_p^n\right)\right)\left(F_p^n\right)^{\top} \nabla w_{i p}^n,
+\end{equation}
+$$
+
+## 更新速度
+
+
+
+## 更新形变梯度
+
+$$
+\begin{equation}
+F_p^{n+1}=\left(I+\Delta t \sum_i v_i^{n+1}\left(\nabla w_{i p}^n\right)^{\top}\right) F_p^n
+\end{equation}
+$$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+如果我们想要给出一个类似的定义，我们可以定义一个张量场 \(\Psi\) 对另一个张量场 \(\mathbb{F}\) 的变化率的散度。在数学上，这可以表示为：
+
+$$
+\nabla \cdot (\Psi \cdot \nabla \mathbb{F}
+$$
+这里，\(\nabla \cdot\) 表示散度算子，\(\Psi\) 是一个张量场，\(\nabla \mathbb{F}\) 表示张量场 \(\mathbb{F}\) 的梯度，而 \(\cdot\) 表示张量乘积。
+
+然而，这个表达式与原始问题中的表达式仍然不同，因为原始问题中的表达式是：
+
+\[
+\nabla \cdot \left( \frac{\partial \Psi}{\partial \mathbb{F}} \right)
+\]
+
+这表示张量场 \(\Psi\) 对张量场 \(\mathbb{F}\) 的偏导数的散度。
+
+如果我们想要定义一个与原始表达式类似的表达式，我们可以考虑定义张量场 \(\Psi\) 对张量场 \(\mathbb{F}\) 的偏导数的散度，并且乘以张量场 \(\mathbb{F}\) 对空间坐标 \(x\) 的偏导数，可以表示为：
+
+\[
+\nabla \cdot \left( \frac{\partial \Psi}{\partial \mathbb{F}} \cdot \frac{\partial \mathbb{F}}{\partial x} \right)
+\]
+
+这个表达式表示的是张量场 \(\Psi\) 对张量场 \(\mathbb{F}\) 的偏导数与张量场 \(\mathbb{F}\) 对空间坐标 \(x\) 的偏导数的乘积的散度。这与原始表达式不同，因为它包含了散度算子和乘积。
