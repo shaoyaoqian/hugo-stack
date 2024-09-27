@@ -33,7 +33,7 @@ $$
 \frac{\partial}{\partial t} \mathbb{F}\left(\mathbf{X}, t\right)=\nabla_{\mathbf{X}}\mathbf{V}\left(\mathbf{X}, t\right)=\nabla_\mathbf{x} \mathbf{v}(\mathbf{x},t)\mathbb{F}\left(\mathbf{X}, t\right) .
 $$
 
-假设我们得到了$t_{n+1}$时刻定义在当前构型$B_{t_{n}}$上的速度为$\mathbf{v}\left(\chi\left(\mathbf{X}, \mathrm{t}_{n}\right),t_{n+1}\right)$, (在欧拉网格上求解速度，根据已知的$\chi(\mathbf{X},t_n)$求得), 采用时间离散:
+假设我们得到了$t_{n+1}$时刻定义在当前构型$B_{t_{n}}$上的速度为$\mathbf{v}\left(\chi\left(\mathbf{X}, \mathrm{t}\_{n}\right),t\_{n+1}\right)$, (在欧拉网格上求解速度，根据已知的$\chi(\mathbf{X},t_n)$求得), 采用时间离散:
 $$
 \frac{\partial}{\partial t} \mathbb{F}\left(\mathbf{X}, t_{n+1}\right)=\nabla_\mathbf{x} \mathbf{v}(\chi\left(\mathbf{X}, \mathrm{t}_{n}\right),t_{n+1})\mathbb{F}\left(\mathbf{X}, t_{n}\right) .\tag{6}
 $$
