@@ -5,7 +5,7 @@ description: 一些相册
 image:
 
 # Badge style
-# style:
-#     background: "#FDAC0B"
-#     color: "#fff"
+style:
+    background: "#6B69D6"
+    color: "#fff"
 ---

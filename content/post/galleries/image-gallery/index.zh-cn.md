@@ -40,47 +40,47 @@ Stack 自带语法，参考了 [Typlog](https://typlog.com/), 使用了 [PhotoSw
 参考：[Sulv's Blog](https://www.sulvblog.cn/posts/blog/hugo_gallery/)
 
 {{< galleries >}}
-{{< gallery src="https://githubimages.pengfeima.cn/images/202409232146523.jpeg" title="壁纸" >}}
-{{< gallery src="https://githubimages.pengfeima.cn/images/202306152242589.jpg" >}}
-{{< gallery src="https://githubimages.pengfeima.cn/images/202306152242666.jpg" >}}
-{{< gallery src="https://githubimages.pengfeima.cn/images/202306152024439.JPG" >}}
-{{< gallery src="https://githubimages.pengfeima.cn/images/202306152024719.JPG" >}}
-{{< gallery src="https://githubimages.pengfeima.cn/images/202306152024726.JPG" >}}
-{{< gallery src="https://githubimages.pengfeima.cn/images/202306152024839.JPG" >}}
-{{< gallery src="https://githubimages.pengfeima.cn/images/202306152242612.jpg" >}}
+{{< gallery src="https://githubimages.pengfeima.cn/images/compressed/202409232146523.webp" title="壁纸" >}}
+{{< gallery src="https://githubimages.pengfeima.cn/images/compressed/202306152242589.webp" >}}
+{{< gallery src="https://githubimages.pengfeima.cn/images/compressed/202306152242666.webp" >}}
+{{< gallery src="https://githubimages.pengfeima.cn/images/compressed/202306152024439.webp" >}}
+{{< gallery src="https://githubimages.pengfeima.cn/images/compressed/202306152024719.webp" >}}
+{{< gallery src="https://githubimages.pengfeima.cn/images/compressed/202306152024726.webp" >}}
+{{< gallery src="https://githubimages.pengfeima.cn/images/compressed/202306152024839.webp" >}}
+{{< gallery src="https://githubimages.pengfeima.cn/images/compressed/202306152242612.webp" >}}
 {{< gallery src="https://www.sulvblog.cn/image/17_IMG_20220430_202228.png" >}}
 {{< gallery src="https://www.sulvblog.cn/image/19_IMG_20220430_200901.png" >}}
 {{< gallery src="https://www.sulvblog.cn/image/16_IMG_20220430_202353.png" title="香克斯" >}}
 {{< gallery src="https://www.sulvblog.cn/image/17_IMG_20220430_202228.png" >}}
-{{< gallery src="https://githubimages.pengfeima.cn/images/202409231723244.png" >}}
-{{< gallery src="https://githubimages.pengfeima.cn/images/202306152025509.JPG" >}}
-{{< gallery src="https://githubimages.pengfeima.cn/images/202306152024158.JPG" >}}
-{{< gallery src="https://githubimages.pengfeima.cn/images/202306152242094.jpg" >}}
-{{< gallery src="https://githubimages.pengfeima.cn/images/202306152242450.jpg" >}}
-{{< gallery src="https://githubimages.pengfeima.cn/images/202306152242688.jpg" >}}
-{{< gallery src="https://githubimages.pengfeima.cn/images/202306152242398.jpg" >}}
-{{< gallery src="https://githubimages.pengfeima.cn/images/202306152242234.jpg" >}}
-{{< gallery src="https://githubimages.pengfeima.cn/images/202306152242455.jpg" >}}
+{{< gallery src="https://githubimages.pengfeima.cn/images/compressed/202409231723244.webp" >}}
+{{< gallery src="https://githubimages.pengfeima.cn/images/compressed/202306152025509.webp" >}}
+{{< gallery src="https://githubimages.pengfeima.cn/images/compressed/202306152024158.webp" >}}
+{{< gallery src="https://githubimages.pengfeima.cn/images/compressed/202306152242094.webp" >}}
+{{< gallery src="https://githubimages.pengfeima.cn/images/compressed/202306152242450.webp" >}}
+{{< gallery src="https://githubimages.pengfeima.cn/images/compressed/202306152242688.webp" >}}
+{{< gallery src="https://githubimages.pengfeima.cn/images/compressed/202306152242398.webp" >}}
+{{< gallery src="https://githubimages.pengfeima.cn/images/compressed/202306152242234.webp" >}}
+{{< gallery src="https://githubimages.pengfeima.cn/images/compressed/202306152242455.webp" >}}
 {{< gallery src="https://www.sulvblog.cn/image/19_IMG_20220430_200901.png" >}}
-{{< gallery src="https://githubimages.pengfeima.cn/images/202409231826659.png" title="香克斯" >}}
+{{< gallery src="https://githubimages.pengfeima.cn/images/compressed/202409231826659.webp" title="香克斯" >}}
 {{< gallery src="https://www.sulvblog.cn/image/17_IMG_20220430_202228.png" >}}
 {{< gallery src="https://www.sulvblog.cn/image/19_IMG_20220430_200901.png" >}}
 {{< gallery src="https://www.sulvblog.cn/image/16_IMG_20220430_202353.png" title="香克斯" >}}
-{{< gallery src="https://githubimages.pengfeima.cn/images/202306152024102.JPG" >}}
-{{< gallery src="https://githubimages.pengfeima.cn/images/202306152024355.JPG" >}}
-{{< gallery src="https://githubimages.pengfeima.cn/images/202306152243274.jpg" >}}
-{{< gallery src="https://githubimages.pengfeima.cn/images/202306152242382.jpg" >}}
-{{< gallery src="https://githubimages.pengfeima.cn/images/202306152242599.jpg" >}}
+{{< gallery src="https://githubimages.pengfeima.cn/images/compressed/202306152024102.webp" >}}
+{{< gallery src="https://githubimages.pengfeima.cn/images/compressed/202306152024355.webp" >}}
+{{< gallery src="https://githubimages.pengfeima.cn/images/compressed/202306152243274.webp" >}}
+{{< gallery src="https://githubimages.pengfeima.cn/images/compressed/202306152242382.webp" >}}
+{{< gallery src="https://githubimages.pengfeima.cn/images/compressed/202306152242599.webp" >}}
 {{< gallery src="https://www.sulvblog.cn/image/17_IMG_20220430_202228.png" >}}
 {{< gallery src="https://www.sulvblog.cn/image/19_IMG_20220430_200901.png" >}}
-{{< gallery src="https://githubimages.pengfeima.cn/images/202409231633231.jpg" title="香克斯" >}}
+{{< gallery src="https://githubimages.pengfeima.cn/images/compressed/202409231633231.webp" title="香克斯" >}}
 {{< gallery src="https://www.sulvblog.cn/image/17_IMG_20220430_202228.png" >}}
-{{< gallery src="https://githubimages.pengfeima.cn/images/202306152024001.JPG" >}}
-{{< gallery src="https://githubimages.pengfeima.cn/images/202306152024132.JPG" >}}
-{{< gallery src="https://githubimages.pengfeima.cn/images/202306152024062.JPG" >}}
-{{< gallery src="https://githubimages.pengfeima.cn/images/202306152024391.JPG" >}}
-{{< gallery src="https://githubimages.pengfeima.cn/images/202306152024029.JPG" >}}
-{{< gallery src="https://githubimages.pengfeima.cn/images/202306152243681.jpg" >}}
-{{< gallery src="https://githubimages.pengfeima.cn/images/202306152242384.jpg" >}}
+{{< gallery src="https://githubimages.pengfeima.cn/images/compressed/202306152024001.webp" >}}
+{{< gallery src="https://githubimages.pengfeima.cn/images/compressed/202306152024132.webp" >}}
+{{< gallery src="https://githubimages.pengfeima.cn/images/compressed/202306152024062.webp" >}}
+{{< gallery src="https://githubimages.pengfeima.cn/images/compressed/202306152024391.webp" >}}
+{{< gallery src="https://githubimages.pengfeima.cn/images/compressed/202306152024029.webp" >}}
+{{< gallery src="https://githubimages.pengfeima.cn/images/compressed/202306152243681.webp" >}}
+{{< gallery src="https://githubimages.pengfeima.cn/images/compressed/202306152242384.webp" >}}
 {{< /galleries >}}
 
