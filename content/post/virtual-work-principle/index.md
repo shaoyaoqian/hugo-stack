@@ -20,7 +20,10 @@ tags:
 
 - $\delta \boldsymbol{v}$ 虚速度(virtual velocity)
 - $\boldsymbol{r}$ 残余力(residual force)
-- $\delta w$ 虚功(virtual work): 单位体积单位时间内，虚运动过程中残余力(residual force)的做功为零。
+- $\delta \boldsymbol{l}$ 虚速度梯度 the virtual velocity gradient
+- $\boldsymbol{t}$ traction vector
+
+**虚功(virtual work)**: $\delta w$, 单位体积单位时间内，虚运动过程中残余力(residual force)的做功为零。
 
 $$
 \delta w=\boldsymbol{r}\cdot\delta\boldsymbol{v}=0
@@ -46,13 +49,11 @@ $$
 \int_{\partial v} \boldsymbol{n} \cdot \boldsymbol{\sigma} \delta \boldsymbol{v} d a-\int_v \boldsymbol{\sigma}: \boldsymbol{\nabla} \delta \boldsymbol{v} d v+\int_v \boldsymbol{f} \cdot \delta \boldsymbol{v} d v=0
 $$
 
-$\delta \boldsymbol{l}$ 虚速度梯度 the virtual velocity gradient
 
 
 
 
 
-$\boldsymbol{t}$ traction vector
 
 $$
 \boldsymbol{t}(\boldsymbol{n})=\boldsymbol{\sigma} \boldsymbol{n} ; \quad \boldsymbol{\sigma}=\sum_{i, j=1}^3 \sigma_{i j} \boldsymbol{e}_i \otimes \boldsymbol{e}_j
