@@ -14,61 +14,56 @@ categories:
 tags:
 ---
 
-### 虚功原理
+## 虚功原理
 
-<img src="https://githubimages.pengfeima.cn/images/202409281430946.png" alt="虚功原理" style="zoom:25%;" />
+{{< myfigure src="https://githubimages.pengfeima.cn/images/202409281430946.png" title="Principle of Virtual Work" percent="40%">}}
 
-$\delta \mathbf{v}$ 虚速度(virtual velocity)
+- $\delta \boldsymbol{v}$ 虚速度(virtual velocity)
+- $\boldsymbol{r}$ 残余力(residual force)
+- $\delta w$ 虚功(virtual work): 单位体积单位时间内，虚运动过程中残余力(residual force)的做功为零。
 
-$\mathbf{r}$ 残余力(residual force)
-
-$\delta w$ 虚功(virtual work): 单位体积单位时间内，虚运动过程中残力的做功为零。
 $$
-\delta w=\mathbf{r}\cdot\delta\mathbf{v}=0
+\delta w=\boldsymbol{r}\cdot\delta\boldsymbol{v}=0
 $$
-由于$\delta \mathbf{v}$ 的任意性，上述式子等价于$\mathbf{r}=0$
+
+由于$\delta \boldsymbol{v}$ 的任意性，上述式子等价于$\boldsymbol{r}=0$
 
 物体的静态平衡方程的弱形式为
+
 $$
-\begin{equation}
 \delta W=\int_v(\operatorname{div} \boldsymbol{\sigma}+\boldsymbol{f}) \cdot \delta \boldsymbol{v} d v=0
-\end{equation}
 $$
+
 根据 $\text{div}$ 算子的性质
+
 $$
-\begin{equation}
 \operatorname{div}(\boldsymbol{\sigma} \delta \boldsymbol{v})=(\operatorname{div} \boldsymbol{\sigma}) \cdot \delta \boldsymbol{v}+\boldsymbol{\sigma}: \boldsymbol{\nabla} \delta \boldsymbol{v}
-\end{equation}
 $$
+
 以及高斯定理, 可以得到
+
 $$
-\begin{equation}
 \int_{\partial v} \boldsymbol{n} \cdot \boldsymbol{\sigma} \delta \boldsymbol{v} d a-\int_v \boldsymbol{\sigma}: \boldsymbol{\nabla} \delta \boldsymbol{v} d v+\int_v \boldsymbol{f} \cdot \delta \boldsymbol{v} d v=0
-\end{equation}
 $$
-$\delta \mathbf{l}$ 虚速度梯度 the virtual velocity gradient
+
+$\delta \boldsymbol{l}$ 虚速度梯度 the virtual velocity gradient
 
 
 
 
 
 $\boldsymbol{t}$ traction vector
+
 $$
-\begin{equation}
 \boldsymbol{t}(\boldsymbol{n})=\boldsymbol{\sigma} \boldsymbol{n} ; \quad \boldsymbol{\sigma}=\sum_{i, j=1}^3 \sigma_{i j} \boldsymbol{e}_i \otimes \boldsymbol{e}_j
-\end{equation}
 $$
 可以得到
 $$
-\begin{equation}
 \int_v \boldsymbol{\sigma}: \delta \boldsymbol{l} d v=\int_v \boldsymbol{f} \cdot \delta \boldsymbol{v} d v+\int_{\partial v} \boldsymbol{t} \cdot \delta \boldsymbol{v} d a
-\end{equation}
 $$
-$\delta \mathbf{l}$  可以拆分成 $\delta \mathbf{d}$ 对称虚形变变化率，$\delta \mathbf{w}$ 反对称虚旋转张量，考虑到$\boldsymbol{\sigma}$的对称性，上述方程可以写成
+$\delta \boldsymbol{l}$  可以拆分成 $\delta \boldsymbol{d}$ 对称虚形变变化率，$\delta \boldsymbol{w}$ 反对称虚旋转张量，考虑到$\boldsymbol{\sigma}$的对称性，上述方程可以写成
 $$
-\begin{equation}
 \delta W=\int_v \boldsymbol{\sigma}: \delta \boldsymbol{d} d v-\int_v \boldsymbol{f} \cdot \delta \boldsymbol{v} d v-\int_{\partial v} \boldsymbol{t} \cdot \delta \boldsymbol{v} d a=0
-\end{equation}
 $$
 spatial virtual work equation，是一个标量方程，描述了形变物体的平衡状态，有限元离散的基础。
 
@@ -113,7 +108,7 @@ $$
 
 
 $$
--\frac{\partial \Psi}{\partial \mathbf{X}}\cdot \delta\mathbf{v}
+-\frac{\partial \Psi}{\partial \boldsymbol{X}}\cdot \delta\boldsymbol{v}
 $$
 
 
@@ -123,7 +118,7 @@ F = \nabla\cdot\mathbb{P}?
 $$
 
 $$
-\mathbf{F}=-\frac{\partial \Psi(\mathbb{F}(\mathbf{X}),\mathbf{X})}{\partial \mathbf{X}}=-\frac{\partial \Psi}{\partial \mathbb{F}}\frac{\partial \mathbb{F}}{\partial \mathbf{X}}=-\mathbb{P}\frac{\partial F}{\partial \mathbf{X}}
+\boldsymbol{F}=-\frac{\partial \Psi(\mathbb{F}(\boldsymbol{X}),\boldsymbol{X})}{\partial \boldsymbol{X}}=-\frac{\partial \Psi}{\partial \mathbb{F}}\frac{\partial \mathbb{F}}{\partial \boldsymbol{X}}=-\mathbb{P}\frac{\partial F}{\partial \boldsymbol{X}}
 $$
 
 
@@ -201,7 +196,7 @@ $$
 
 
 
-称 $\sigma$ 和 $\mathbf{d}$ 为work conjugate
+称 $\sigma$ 和 $\boldsymbol{d}$ 为work conjugate
 
 
 
