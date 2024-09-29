@@ -196,7 +196,6 @@ $$
 
 
 
-
 称 $\sigma$ 和 $\boldsymbol{d}$ 为work conjugate
 
 
@@ -214,3 +213,30 @@ $$
 
 hugo new --kind post-bundle post/virtual-work-principle
 
+
+
+
+
+## 达朗贝尔原理
+（D'Alembert's principle）
+
+
+## 总势能函数和平衡状态
+
+
+总势能泛函为:
+
+$$
+\Pi(\boldsymbol{\phi})=\int_V \Psi(\boldsymbol{C}) d V-\int_V \boldsymbol{f}_0 \cdot \boldsymbol{\phi} d V-\int_{\partial V} \boldsymbol{t}_0 \cdot \boldsymbol{\phi} d A ,
+$$
+
+其方向导数产生虚功原理
+
+$$
+\begin{aligned}
+D \Pi(\phi)[\delta \boldsymbol{v}] & =\int_V \frac{\partial \Psi}{\partial \boldsymbol{C}}: D \boldsymbol{C}[\delta \boldsymbol{v}] d V-\int_V \boldsymbol{f}_0 \cdot \delta \boldsymbol{v} d V-\int_{\partial V} \boldsymbol{t}_0 \cdot \delta \boldsymbol{v} d A \\
+& =\int_V \boldsymbol{S}: D \boldsymbol{E}[\delta \boldsymbol{v}] d V-\int_V \boldsymbol{f}_0 \cdot \delta \boldsymbol{v} d V-\int_{\partial V} \boldsymbol{t}_0 \cdot \delta \boldsymbol{v} d A=0
+\end{aligned}
+$$
+
+(p. 225.):
