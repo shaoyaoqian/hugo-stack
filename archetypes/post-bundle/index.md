@@ -24,4 +24,4 @@ image:
 categories:
 tags:
 toc: true
-hugo new --kind post-bundle posts/new-page
+hugo new --kind post-bundle post/inital_new_disk
