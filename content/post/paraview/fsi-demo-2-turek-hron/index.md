@@ -69,6 +69,56 @@ $$
 上述应力公式可以很容易推广到其他各向同性和各向异性本构方程，事实上，目前的ILE公式并不局限于neo-Hookean材料，而且可以很容易使用替代的超弹性甚至非弹性材料模型。
 
 ## 结果对比(WIP)
+### 涡度
+
+旋度和涡度在流体力学中都描述了流场的旋转特性，但它们有具体的区别：
+
+- **旋度 (Vorticity)**：指的是速度场的旋转性，数学上定义为速度场 \( \mathbf{u} \) 的旋度，表示为 \( \nabla \times \mathbf{u} \)。旋度是一个矢量量，它的方向表示旋转轴的方向，大小表示旋转强度。  
+  \[
+  \mathbf{\omega} = \nabla \times \mathbf{u}
+  \]
+
+- **涡度 (Vorticity Magnitude)**：通常是旋度的大小，即旋度矢量的模，表示流体旋转的强度，但不包含方向信息。涡度是一个标量量，描述了流体微团绕轴旋转的速率大小：
+  \[
+  |\mathbf{\omega}| = \sqrt{\omega_x^2 + \omega_y^2 + \omega_z^2}
+  \]
+
+在三维情况下，使用分量表示的话，旋度 \( \mathbf{\omega} = (\omega_x, \omega_y, \omega_z) \) 的各个分量为：
+
+\[
+\omega_x = \frac{\partial w}{\partial y} - \frac{\partial v}{\partial z}
+\]
+\[
+\omega_y = \frac{\partial u}{\partial z} - \frac{\partial w}{\partial x}
+\]
+\[
+\omega_z = \frac{\partial v}{\partial x} - \frac{\partial u}{\partial y}
+\]
+
+在二维流场（例如 \( \mathbf{u} = (u, v) \) ）中，旋度只有垂直于 \( x \)-\( y \) 平面的分量 \( \omega_z \)的分量非零：
+
+\[
+\omega_z = \frac{\partial v}{\partial x} - \frac{\partial u}{\partial y}
+\]
+
+这个分量描述了平面流场中流体微元的旋转趋势，数值上与涡度相等。
+
 
 
 [^1]: Lee J H, Griffith B E. On the Lagrangian-Eulerian coupling in the immersed finite element/difference method[J]. Journal of computational physics, 2022, 457: 111042.
+
+## 参考文献
+
+带尾圆柱绕流问题的参考文献如下[^1][^2][^3][^4][^5][^6][^7]：
+
+[^2]: S. Turek, J. Hron, Proposal for numerical benchmarking of fluid-structure interaction between an elastic object and laminar incompressible flow, in: H.-J. Bungartz, M. Schäfer (Eds.), Fluid-Structure Interaction, Springer Berlin Heidelberg, Berlin, Heidelberg, 2006, pp. 371–385.
+
+[^3]: Z. Li, J. Favier, A non-staggered coupling of finite element and lattice Boltzmann methods via an immersed boundary scheme for fluid-structure interaction, Comput. & Fluids 143 (2017) 90–102, http://dx.doi.org/10.1016/j.compfluid.2016.11.008, URL https://www.sciencedirect.com/science/article/pii/S0045793016303589.
+
+[^4]: A stable and explicit fluid–structure interaction solver based on lattice-Boltzmann and immersed boundary methods
+
+[^5]: S. Roy, L. Heltai, F. Costanzo, Benchmarking the immersed finite element method for fluid-structure interaction problems, Comput. Math. Appl. 69 (2015) 1167–1188, arXiv:1306 .0936.
+
+[^6]: A nodal immersed finite element-finite difference method
+
+[^7]: A sharp interface Lagrangian-Eulerian method for flexible-body fluid-structure interaction
