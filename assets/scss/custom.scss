@@ -26,6 +26,10 @@
     margin-bottom: -2em !important;
 }
 
+body .pswp__caption__center {
+    text-align: center; /* 这样就可以覆盖原来的 text-align: center */
+}
+
 .article-lastmod {
     margin-bottom: -1em !important;
 }

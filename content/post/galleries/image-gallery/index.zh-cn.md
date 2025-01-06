@@ -24,17 +24,12 @@ categories:
 Stack 自带语法，参考了 [Typlog](https://typlog.com/), 使用了 [PhotoSwipe](https://photoswipe.com/). 
 只支持本地图片，高度固定.
 
-```markdown
-![Image 1](2153815980856311808.jpeg) ![Image 2](1.jpg)
+## 渼陂湖
+![](IMG_20250101_154744.jpg)
+![](IMG_20250101_154746_1.jpg)
+![](IMG_20250101_154746.jpg)
+![凶巴巴](IMG_20250101_154747.jpg)
 
-![Image 1](2153815980856311808.jpeg) ![Image 2](1.jpg) ![Image 3](2.jpg)
-```
-
-![Image 1](2153815980856311808.jpeg)
-
-![Image 1](2153815980856311808.jpeg) ![Image 2](1.jpg)
-
-![Image 1](2153815980856311808.jpeg) ![Image 2](1.jpg) ![Image 3](2.jpg)
 
 ## 瀑布流
 参考：[Sulv's Blog](https://www.sulvblog.cn/posts/blog/hugo_gallery/)
