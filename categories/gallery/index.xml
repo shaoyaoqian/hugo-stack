@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>相册 on 卮言日出,和以天倪</title><link>https://hugo.pengfeima.cn/categories/gallery/</link><description>Recent content in 相册 on 卮言日出,和以天倪</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 26 Aug 2023 00:00:01 +0000</lastBuildDate><atom:link href="https://hugo.pengfeima.cn/categories/gallery/index.xml" rel="self" type="application/rss+xml"/><item><title>相册</title><link>https://hugo.pengfeima.cn/p/image-gallery/</link><pubDate>Sat, 26 Aug 2023 00:00:01 +0000</pubDate><guid>https://hugo.pengfeima.cn/p/image-gallery/</guid><description>&lt;img src="https://hugo.pengfeima.cn/p/image-gallery/2153815980856311808.jpeg" alt="Featured image of post 相册" />&lt;p>插入图像可以使用三种 shortcodes, 分别是:&lt;/p>
+&lt;ul>
+&lt;li>单幅居中&lt;/li>
+&lt;li>单行多幅等高排列&lt;/li>
+&lt;li>瀑布流的相册&lt;/li>
+&lt;/ul>
+&lt;h2 id="单幅居中">单幅居中
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">{ {&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">myfigure&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;/p/image-gallery/2153815980856311808.jpeg&amp;#34;&lt;/span> &lt;span class="na">title&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;Image 1&amp;#34;&lt;/span> &lt;span class="na">percent&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;60%&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>} }
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;div style="text-align: center;" class="myfigure">
+&lt;img src="https://hugo.pengfeima.cn/p/image-gallery/2153815980856311808.jpeg" alt="" style="width: 60%;" />
+&lt;figcaption>Image 1&lt;/figcaption>
+&lt;/div>
+&lt;h2 id="等高排列">等高排列
+&lt;/h2>&lt;p>Stack 自带语法，参考了 &lt;a class="link" href="https://typlog.com/" target="_blank" rel="noopener"
+>Typlog&lt;/a>, 使用了 &lt;a class="link" href="https://photoswipe.com/" target="_blank" rel="noopener"
+>PhotoSwipe&lt;/a>.
+只支持本地图片，高度固定.&lt;/p>
+&lt;h2 id="渼陂湖">渼陂湖
+&lt;/h2>&lt;p>&lt;img src="https://hugo.pengfeima.cn/p/image-gallery/IMG_20250101_154744.jpg"
+width="4096"
+height="3072"
+srcset="https://hugo.pengfeima.cn/p/image-gallery/IMG_20250101_154744_hu_13df476ddf6b233a.jpg 480w, https://hugo.pengfeima.cn/p/image-gallery/IMG_20250101_154744_hu_4313ce3e3914f041.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>
+&lt;img src="https://hugo.pengfeima.cn/p/image-gallery/IMG_20250101_154746_1.jpg"
+width="4096"
+height="3072"
+srcset="https://hugo.pengfeima.cn/p/image-gallery/IMG_20250101_154746_1_hu_3695a0b2d041a068.jpg 480w, https://hugo.pengfeima.cn/p/image-gallery/IMG_20250101_154746_1_hu_ebc4759954220327.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>
+&lt;img src="https://hugo.pengfeima.cn/p/image-gallery/IMG_20250101_154746.jpg"
+width="4096"
+height="3072"
+srcset="https://hugo.pengfeima.cn/p/image-gallery/IMG_20250101_154746_hu_e6bdd747a483eef.jpg 480w, https://hugo.pengfeima.cn/p/image-gallery/IMG_20250101_154746_hu_bce01f9f0fcfcfc2.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>
+&lt;img src="https://hugo.pengfeima.cn/p/image-gallery/IMG_20250101_154747.jpg"
+width="4096"
+height="3072"
+srcset="https://hugo.pengfeima.cn/p/image-gallery/IMG_20250101_154747_hu_ed8c8f484ec3cc1f.jpg 480w, https://hugo.pengfeima.cn/p/image-gallery/IMG_20250101_154747_hu_b7c95eacdb5748db.jpg 1024w"
+loading="lazy"
+alt="凶巴巴"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;/p>
+&lt;h2 id="瀑布流">瀑布流
+&lt;/h2>&lt;p>参考：&lt;a class="link" href="https://www.sulvblog.cn/posts/blog/hugo_gallery/" target="_blank" rel="noopener"
+>Sulv&amp;rsquo;s Blog&lt;/a>&lt;/p>
+&lt;!DOCTYPE html>
+&lt;html lang="en">
+&lt;head>
+&lt;meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+&lt;script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js">&lt;/script>
+&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nanogallery2@3.0.5/dist/css/nanogallery2.min.css">
+&lt;script src="https://cdn.jsdelivr.net/npm/nanogallery2@3.0.5/dist/jquery.nanogallery2.min.js">&lt;/script>
+&lt;/head>
+&lt;body>
+&lt;div data-nanogallery2='{
+"thumbnailDisplayTransition": "none",
+"thumbnailDisplayTransitionDuration": 500,
+"thumbnailDisplayInterval": 30,
+"galleryDisplayTransition": "none",
+"galleryDisplayTransitionDuration": 500,
+"thumbnailDisplayOutsideScreen": "false",
+"thumbnailHeight": "auto",
+"eventsDebounceDelay": 10,
+"thumbnailGutterWidth": 3,
+"thumbnailGutterHeight": 3,
+"thumbnailL1BorderHorizontal": 0,
+"thumbnailL1BorderVertical": 0,
+"thumbnailLabel": {
+"titleFontSize": "0.6em"
+},
+"thumbnailHoverEffect2": "image_scale_1.00_1.10|label_backgroundColor_rgba(0,0,0,0)_rgba(255,255,255,0)",
+"galleryTheme": {
+"thumbnail": {
+"borderRadius": "3px"
+}
+},
+"thumbnailToolbarImage": {
+"topLeft": "",
+"topRight": "",
+"bottomLeft": "",
+"bottomRight": ""
+},
+"viewerToolbar": {
+"display": true,
+"standard": "label"
+},
+"viewerTools": {
+"topLeft": "pageCounter, playPauseButton",
+"topRight": "downloadButton, rotateLeft, zoomButton, fullscreenButton, closeButton"
+},
+"viewerGalleryTWidth": 40,
+"viewerGalleryTHeight": 40
+}'>
+&lt;a href="https://githubimages.pengfeima.cn/images/compressed/202409232146523.webp" data-ngThumb="https://githubimages.pengfeima.cn/images/compressed/202409232146523.webp">壁纸&lt;/a>
+&lt;a href="https://githubimages.pengfeima.cn/images/compressed/202306152242589.webp" data-ngThumb="https://githubimages.pengfeima.cn/images/compressed/202306152242589.webp">&lt;/a>
+&lt;a href="https://githubimages.pengfeima.cn/images/compressed/202306152242666.webp" data-ngThumb="https://githubimages.pengfeima.cn/images/compressed/202306152242666.webp">&lt;/a>
+&lt;a href="https://githubimages.pengfeima.cn/images/compressed/202306152024439.webp" data-ngThumb="https://githubimages.pengfeima.cn/images/compressed/202306152024439.webp">&lt;/a>
+&lt;a href="https://githubimages.pengfeima.cn/images/compressed/202306152024719.webp" data-ngThumb="https://githubimages.pengfeima.cn/images/compressed/202306152024719.webp">&lt;/a>
+&lt;a href="https://githubimages.pengfeima.cn/images/compressed/202306152024726.webp" data-ngThumb="https://githubimages.pengfeima.cn/images/compressed/202306152024726.webp">&lt;/a>
+&lt;a href="https://githubimages.pengfeima.cn/images/compressed/202306152024839.webp" data-ngThumb="https://githubimages.pengfeima.cn/images/compressed/202306152024839.webp">&lt;/a>
+&lt;a href="https://githubimages.pengfeima.cn/images/compressed/202306152242612.webp" data-ngThumb="https://githubimages.pengfeima.cn/images/compressed/202306152242612.webp">&lt;/a>
+&lt;a href="https://www.sulvblog.cn/image/17_IMG_20220430_202228.png" data-ngThumb="https://www.sulvblog.cn/image/17_IMG_20220430_202228.png">&lt;/a>
+&lt;a href="https://www.sulvblog.cn/image/19_IMG_20220430_200901.png" data-ngThumb="https://www.sulvblog.cn/image/19_IMG_20220430_200901.png">&lt;/a>
+&lt;a href="https://www.sulvblog.cn/image/16_IMG_20220430_202353.png" data-ngThumb="https://www.sulvblog.cn/image/16_IMG_20220430_202353.png">香克斯&lt;/a>
+&lt;a href="https://www.sulvblog.cn/image/17_IMG_20220430_202228.png" data-ngThumb="https://www.sulvblog.cn/image/17_IMG_20220430_202228.png">&lt;/a>
+&lt;a href="https://githubimages.pengfeima.cn/images/compressed/202409231723244.webp" data-ngThumb="https://githubimages.pengfeima.cn/images/compressed/202409231723244.webp">&lt;/a>
+&lt;a href="https://githubimages.pengfeima.cn/images/compressed/202306152025509.webp" data-ngThumb="https://githubimages.pengfeima.cn/images/compressed/202306152025509.webp">&lt;/a>
+&lt;a href="https://githubimages.pengfeima.cn/images/compressed/202306152024158.webp" data-ngThumb="https://githubimages.pengfeima.cn/images/compressed/202306152024158.webp">&lt;/a>
+&lt;a href="https://githubimages.pengfeima.cn/images/compressed/202306152242094.webp" data-ngThumb="https://githubimages.pengfeima.cn/images/compressed/202306152242094.webp">&lt;/a>
+&lt;a href="https://githubimages.pengfeima.cn/images/compressed/202306152242450.webp" data-ngThumb="https://githubimages.pengfeima.cn/images/compressed/202306152242450.webp">&lt;/a>
+&lt;a href="https://githubimages.pengfeima.cn/images/compressed/202306152242688.webp" data-ngThumb="https://githubimages.pengfeima.cn/images/compressed/202306152242688.webp">&lt;/a>
+&lt;a href="https://githubimages.pengfeima.cn/images/compressed/202306152242398.webp" data-ngThumb="https://githubimages.pengfeima.cn/images/compressed/202306152242398.webp">&lt;/a>
+&lt;a href="https://githubimages.pengfeima.cn/images/compressed/202306152242234.webp" data-ngThumb="https://githubimages.pengfeima.cn/images/compressed/202306152242234.webp">&lt;/a>
+&lt;a href="https://githubimages.pengfeima.cn/images/compressed/202306152242455.webp" data-ngThumb="https://githubimages.pengfeima.cn/images/compressed/202306152242455.webp">&lt;/a>
+&lt;a href="https://www.sulvblog.cn/image/19_IMG_20220430_200901.png" data-ngThumb="https://www.sulvblog.cn/image/19_IMG_20220430_200901.png">&lt;/a>
+&lt;a href="https://githubimages.pengfeima.cn/images/compressed/202409231826659.webp" data-ngThumb="https://githubimages.pengfeima.cn/images/compressed/202409231826659.webp">香克斯&lt;/a>
+&lt;a href="https://www.sulvblog.cn/image/17_IMG_20220430_202228.png" data-ngThumb="https://www.sulvblog.cn/image/17_IMG_20220430_202228.png">&lt;/a>
+&lt;a href="https://www.sulvblog.cn/image/19_IMG_20220430_200901.png" data-ngThumb="https://www.sulvblog.cn/image/19_IMG_20220430_200901.png">&lt;/a>
+&lt;a href="https://www.sulvblog.cn/image/16_IMG_20220430_202353.png" data-ngThumb="https://www.sulvblog.cn/image/16_IMG_20220430_202353.png">香克斯&lt;/a>
+&lt;a href="https://githubimages.pengfeima.cn/images/compressed/202306152024102.webp" data-ngThumb="https://githubimages.pengfeima.cn/images/compressed/202306152024102.webp">&lt;/a>
+&lt;a href="https://githubimages.pengfeima.cn/images/compressed/202306152024355.webp" data-ngThumb="https://githubimages.pengfeima.cn/images/compressed/202306152024355.webp">&lt;/a>
+&lt;a href="https://githubimages.pengfeima.cn/images/compressed/202306152243274.webp" data-ngThumb="https://githubimages.pengfeima.cn/images/compressed/202306152243274.webp">&lt;/a>
+&lt;a href="https://githubimages.pengfeima.cn/images/compressed/202306152242382.webp" data-ngThumb="https://githubimages.pengfeima.cn/images/compressed/202306152242382.webp">&lt;/a>
+&lt;a href="https://githubimages.pengfeima.cn/images/compressed/202306152242599.webp" data-ngThumb="https://githubimages.pengfeima.cn/images/compressed/202306152242599.webp">&lt;/a>
+&lt;a href="https://www.sulvblog.cn/image/17_IMG_20220430_202228.png" data-ngThumb="https://www.sulvblog.cn/image/17_IMG_20220430_202228.png">&lt;/a>
+&lt;a href="https://www.sulvblog.cn/image/19_IMG_20220430_200901.png" data-ngThumb="https://www.sulvblog.cn/image/19_IMG_20220430_200901.png">&lt;/a>
+&lt;a href="https://githubimages.pengfeima.cn/images/compressed/202409231633231.webp" data-ngThumb="https://githubimages.pengfeima.cn/images/compressed/202409231633231.webp">香克斯&lt;/a>
+&lt;a href="https://www.sulvblog.cn/image/17_IMG_20220430_202228.png" data-ngThumb="https://www.sulvblog.cn/image/17_IMG_20220430_202228.png">&lt;/a>
+&lt;a href="https://githubimages.pengfeima.cn/images/compressed/202306152024001.webp" data-ngThumb="https://githubimages.pengfeima.cn/images/compressed/202306152024001.webp">&lt;/a>
+&lt;a href="https://githubimages.pengfeima.cn/images/compressed/202306152024132.webp" data-ngThumb="https://githubimages.pengfeima.cn/images/compressed/202306152024132.webp">&lt;/a>
+&lt;a href="https://githubimages.pengfeima.cn/images/compressed/202306152024062.webp" data-ngThumb="https://githubimages.pengfeima.cn/images/compressed/202306152024062.webp">&lt;/a>
+&lt;a href="https://githubimages.pengfeima.cn/images/compressed/202306152024391.webp" data-ngThumb="https://githubimages.pengfeima.cn/images/compressed/202306152024391.webp">&lt;/a>
+&lt;a href="https://githubimages.pengfeima.cn/images/compressed/202306152024029.webp" data-ngThumb="https://githubimages.pengfeima.cn/images/compressed/202306152024029.webp">&lt;/a>
+&lt;a href="https://githubimages.pengfeima.cn/images/compressed/202306152243681.webp" data-ngThumb="https://githubimages.pengfeima.cn/images/compressed/202306152243681.webp">&lt;/a>
+&lt;a href="https://githubimages.pengfeima.cn/images/compressed/202306152242384.webp" data-ngThumb="https://githubimages.pengfeima.cn/images/compressed/202306152242384.webp">&lt;/a>
+&lt;/div>
+&lt;/body>
+&lt;/html></description></item></channel></rss>
